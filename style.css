@@ -1,0 +1,55 @@
+body
+{
+    font-family: 'Pacifico', cursive;
+    background-color: white;
+    font-size: 2rem;
+}
+.content
+{
+    text-align: center;
+    height:100px;
+}
+
+#inputfield
+{
+    
+    height: 50px;
+    width: 70%;
+    margin: 5% 0;
+    border-radius: 10px;
+}
+h2
+{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+.item 
+{
+    position: relative;
+    margin: 10px;
+    padding:10px;
+    border:1px solid black;
+}
+.cross
+{
+    position: absolute;
+    color:red;
+    background-color: white;
+    border:none;
+    left: 0;
+}
+.removeButton
+{
+    background-color: white;
+    border:none;
+    position: absolute;
+    right: 0;
+}
+
+@media screen and (max-width:500px)
+{
+    body
+    {
+        font-size:1.5rem;
+    }
+}
