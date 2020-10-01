@@ -23,6 +23,15 @@ h2
     font-family: 'Pacifico', cursive;
     text-align: center;
 }
+
+#list-block{
+    max-height:60vh;
+    overflow-y: auto;
+    padding:5px 20px;
+    width:90%;
+    margin:auto;
+}
+
 .item 
 {
     position: relative;
