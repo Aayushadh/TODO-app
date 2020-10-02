@@ -39,13 +39,22 @@ h2
     padding:10px;
     border:1px solid black;
 }
+.item-text{
+    display: inline;
+    word-break: break-all;
+}
 .cross
 {
     position: absolute;
     color:red;
     background-color: white;
     border:none;
+    outline:none;
     left: 0;
+}
+.striked{
+    text-decoration: line-through;
+    color:red
 }
 .removeButton
 {
